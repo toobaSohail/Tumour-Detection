@@ -17,3 +17,5 @@ Ten real-valued features are computed for each cell nucleus:
 9) symmetry
 10) fractal dimension ("coastline approximation" - 1)
 
+In this project, seaborn is used for visualization.
+First of all, all irrelevant columns like unamed:32, id and diagnosis columns are dropped. THen we view all pair wise correlated columns through correlation graph. All pair wise correlated features are dropped. Because those features may effect us in learning by algorithm. 
