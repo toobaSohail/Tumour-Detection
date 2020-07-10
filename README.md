@@ -19,3 +19,19 @@ Ten real-valued features are computed for each cell nucleus:
 
 In this project, seaborn is used for visualization.
 First of all, all irrelevant columns like unamed:32, id and diagnosis columns are dropped. THen we view all pair wise correlated columns through correlation graph. All pair wise correlated features are dropped. Because those features may effect us in learning by algorithm. 
+
+
+## About Requirements.txt
+
+This text file can be generated in two ways. 
+First of all move into your working directory. And then choose either of the below mentioned ways.
+One of the way is by using folling command:
+  pip freeze > requirements.txt.
+  
+Another way is using pipreqs
+Firstly, install pipreqs by pip install pipreqs
+And then move into your working directory and type following command:
+  pipreqs "directory path"
+  
+Now you have genereated your requirements.txt file. This file contains all the necessary libraries you used in your project.
+
