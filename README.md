@@ -60,6 +60,8 @@ You can simply install streamlit by opening Anaconda prompt and type
 To run 
   **streamlit run appname.py**
 
+And app.py contains code of creating web app.
+
 ## ProcFile
 
 For Procfile download it as it is. This file should not contain any extension. And if it contains Heroku will through an exception.
@@ -80,16 +82,16 @@ These procfile, requirements.text and setup.sh file are for deployment purpose. 
 3) Open Anaconda Prompt and go to your project directory and type **Heroku Login**
 4) Deploy application by following commands
   
-  ###### heroku create 
+     ###### heroku create 
    
    then type 
-   ###### git add .
+     ###### git add .
    
    then type 
-   ###### git commit -m "some message"
+    ###### git commit -m "some message"
    
    and finally, type 
-   ###### git push heroku master
+    ###### git push heroku master
    
    And Tada!! you have deployed your app.
   
