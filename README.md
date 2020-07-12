@@ -25,6 +25,11 @@ M indicates malignant tumour
 B indicates Benign tumour
 
 So, this makes it Binary Classification problem, sice target variable is binary.
+
+**Heading towards Data Visualization**
+
+For Data Visualization Section, here **seaborn** library is used. Seaborn is Fantastic Data Visualization library. In this phase, you will see how to produce and customize various chart types ith seaborn and also apply **feature selection** and **feature extraction** method with sickit learn. And lastly, there is also gradient boosted Decision tree classifier built with **xgBoost** and classify tumours as either malignant or benign.
+And all while using seaborn as primary tool for Data Visualization.
 First of all, all irrelevant columns like unamed:32, id and diagnosis columns are dropped. THen we view all pair wise correlated columns through correlation graph. All pair wise correlated features are dropped. Because those features may effect us in learning by algorithm. 
 
 
