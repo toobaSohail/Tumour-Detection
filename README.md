@@ -1,4 +1,4 @@
-# Tumour-Detection
+# Tumour Diagnosis: Feature Selection and Feature Classification
 
 ## About Dataset
 
@@ -82,11 +82,14 @@ These procfile, requirements.text and setup.sh file are for deployment purpose. 
   
   ###### heroku create 
    
-   then type ###### git add .
+   then type 
+   ###### git add .
    
-   then type ###### git commit -m "some message"
+   then type 
+   ###### git commit -m "some message"
    
-   and then ###### git push heroku master
+   and finally, type 
+   ###### git push heroku master
    
    And Tada!! you have deployed your app.
   
