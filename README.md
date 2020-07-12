@@ -17,8 +17,14 @@ Ten real-valued features are computed for each cell nucleus:
 9) symmetry
 10) fractal dimension ("coastline approximation" - 1)
 
+## About Project
 This project is originally divided into to sections. First Section is of Exploratory Data analysis and second section is of Statistic Data Visualization with Seaborn. 
-Our Dataset has 33 columns and Diagnosis column is our target variable
+Our Dataset has 33 columns and Diagnosis column is our target variable whose value we want to predict. So, the values in this column can take only two unique values. And it can be either M and B. 
+
+M indicates malignant tumour
+B indicates Benign tumour
+
+So, this makes it Binary Classification problem, sice target variable is binary.
 First of all, all irrelevant columns like unamed:32, id and diagnosis columns are dropped. THen we view all pair wise correlated columns through correlation graph. All pair wise correlated features are dropped. Because those features may effect us in learning by algorithm. 
 
 
