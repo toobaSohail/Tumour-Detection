@@ -57,5 +57,16 @@ You can simply install streamlit by opening Anaconda prompt and type
  
 To run 
   **streamlit run appname.py**
-  
+
+## ProcFile
+
+For Procfile download it as it is. This file should not contain any extension. And if it contains Heroku will through an exception.
+Save this file into your working project directory.
+
+## setup.sh
+
+This script file contains the email statement. Download it and Replace email with yours.
+Save this file into working project directory.
+
+
 
