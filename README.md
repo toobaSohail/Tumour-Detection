@@ -72,4 +72,13 @@ Save this file into working project directory.
 
 These procfile, requirements.text and setup.sh file are for deployment purpose. If you want to deploy your project, use them otherwise just ignore.
 
+## For deployment on Heroku
+
+# Steps
+1) Create Heroku account
+2) Installing Heroku Command Line interface (CLI)
+3) Open Anaconda Prompt and go to your project directory and type **Heroku Login**
+4)
+
+
 
