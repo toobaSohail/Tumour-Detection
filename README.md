@@ -81,9 +81,12 @@ These procfile, requirements.text and setup.sh file are for deployment purpose. 
 4) Deploy application by following commands
   
   ###### heroku create 
-   then type **git add .**
-   then type **git commit -m "some message"**
-   and then **git push heroku master**
+   
+   then type ###### git add .
+   
+   then type ###### git commit -m "some message"
+   
+   and then ###### git push heroku master
    
    And Tada!! you have deployed your app.
   
