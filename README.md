@@ -17,7 +17,8 @@ Ten real-valued features are computed for each cell nucleus:
 9) symmetry
 10) fractal dimension ("coastline approximation" - 1)
 
-In this project, seaborn is used for visualization.
+This project is originally divided into to sections. First Section is of Exploratory Data analysis and second section is of Statistic Data Visualization with Seaborn. 
+Our Dataset has 33 columns and Diagnosis column is our target variable
 First of all, all irrelevant columns like unamed:32, id and diagnosis columns are dropped. THen we view all pair wise correlated columns through correlation graph. All pair wise correlated features are dropped. Because those features may effect us in learning by algorithm. 
 
 
