@@ -44,13 +44,15 @@ One of the way is by using folling command:
   pip freeze > requirements.txt.
   
 Another way is using pipreqs
-Firstly, install pipreqs by pip install pipreqs
+Firstly, install pipreqs by **pip install pipreqs**
 And then move into your working directory and type following command:
-  pipreqs "directory path"
+  **pipreqs "directory path"**
   
-Now you have genereated your requirements.txt file. This file contains all the necessary libraries you used in your project.
+Now you have genereated your **requirements.txt** file. This file contains all the necessary libraries you used in your project.
 
 ## About Streamlit
+
+Streamlit api is simple and fastest way to create web app of your machine learning model.
 
 You can simply install streamlit by opening Anaconda prompt and type
   **pip install streamlit**
@@ -68,5 +70,6 @@ Save this file into your working project directory.
 This script file contains the email statement. Download it and Replace email with yours.
 Save this file into working project directory.
 
+These procfile, requirements.text and setup.sh file are for deployment purpose. If you want to deploy your project, use them otherwise just ignore.
 
 
