@@ -34,7 +34,7 @@ So, this makes it Binary Classification problem, sice target variable is binary.
 For Data Visualization Section, here **seaborn** library is used. Seaborn is Fantastic Data Visualization library. In this phase, you will see how to produce and customize various chart types ith seaborn and also apply **feature selection** and **feature extraction** method with sickit learn. And lastly, there is also gradient boosted Decision tree classifier built with **xgBoost** and classify tumours as either malignant or benign.
 And all while using seaborn as primary tool for Data Visualization.
 
-
+Data Visualization with seaborn is ipynb file of project. Download it and try running it in jubpyter notebook.
 
 ## About Requirements.txt
 
@@ -93,7 +93,7 @@ These procfile, requirements.text and setup.sh file are for deployment purpose. 
    and finally, type 
     ###### git push heroku master
    
-   And Tada!! you have deployed your app.
+   And Woah!! you have deployed your app.
   
 
 
