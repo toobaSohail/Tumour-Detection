@@ -74,13 +74,13 @@ These procfile, requirements.text and setup.sh file are for deployment purpose. 
 
 ## For deployment on Heroku
 
-# Steps
+###### Steps
 1) Create Heroku account
 2) Installing Heroku Command Line interface (CLI)
 3) Open Anaconda Prompt and go to your project directory and type **Heroku Login**
 4) Deploy application by following commands
   
-  **heroku create**
+  ###### heroku create 
    then type **git add .**
    then type **git commit -m "some message"**
    and then **git push heroku master**
